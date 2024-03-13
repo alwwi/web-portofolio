@@ -11,7 +11,21 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        'poppins':["Poppins", "sans-serif"],
+        'cambay': ['Cambay', 'sans-serif'],
+        'noto-serif': ['Noto Serif', 'serif'],
+      },
+      spacing: {
+        "129" : "129px",
+      },
+      colors: {
+        'navy' : '#2F2C4F',
+      },
+      width: {
+        'container' : '1290px',
       },
     },
   },
